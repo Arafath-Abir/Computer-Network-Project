@@ -6,13 +6,13 @@ This repository contains two Cisco Packet Tracer projects that demonstrate core 
 
 ## 📂 Projects Included
 
-### 1. **opsf 213-15-4353.pkt**
+### 1. **com Network 2.pkt**
 - Focuses on **OSPF (Open Shortest Path First) Routing Protocol**.  
 - Demonstrates how OSPF dynamically updates routing tables in a multi-router environment.  
 - Includes subnetting, router configurations, and verification using simulation mode.  
 - Useful for understanding link-state routing and efficient path selection.
 
-### 2. **213-15-4353.pkt**
+### 2. **Com Network 2.pkt**
 - A **basic computer network topology** project.  
 - Includes switches, routers, PCs, and servers connected in a structured design.  
 - Configures IP addressing and tests connectivity with `ping` and other tools.  
@@ -38,7 +38,7 @@ This repository contains two Cisco Packet Tracer projects that demonstrate core 
 
 ## 📊 Topology Diagrams
 
-### 1) `opsf 213-15-4353.pkt` — OSPF multi-router lab
+### 1) `Com Network 1` — OSPF multi-router lab
 
 ```text
            ┌──────────┐        OSPF Area 0        ┌──────────┐
@@ -65,3 +65,21 @@ This repository contains two Cisco Packet Tracer projects that demonstrate core 
                           ┌────┴─────┐
                           │  Server  │  10.0.3.20/24
                           └──────────┘
+
+
+
+**### 1) `Com Network 2`
+**
+ PC1 10.1.1.10/24            PC2 10.1.1.11/24
+     │                            │
+     │                            │
+   ┌─┴───┐                    ┌───┴─┐
+   │ SW1 │--------------------│ SW2 │
+   └─┬───┘        Trunk/      └───┬─┘
+     │           Access Links      │
+     │                              │
+   ┌─┴───────────────┐         ┌────┴──────────────┐
+   │   Router (R)    │---------│     Server        │
+   │ G0/0: 10.1.1.1  │         │ 10.1.2.20/24      │
+   │ G0/1: 10.1.2.1  │         └───────────────────┘
+   └─────────────────┘
