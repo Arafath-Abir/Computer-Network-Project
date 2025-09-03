@@ -68,7 +68,7 @@ This repository contains two Cisco Packet Tracer projects that demonstrate core 
 
 
 
-### 1) `Com Network 1` — OSPF multi-router lab
+### 2) `Com Network 1` — OSPF multi-router lab
 
  PC1 10.1.1.10/24            PC2 10.1.1.11/24
      │                            │
