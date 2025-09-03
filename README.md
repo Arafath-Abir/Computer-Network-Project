@@ -6,7 +6,7 @@ This repository contains two Cisco Packet Tracer projects that demonstrate core 
 
 ## 📂 Projects Included
 
-### 1. **com Network 2.pkt**
+### 1. **com Network 1.pkt**
 - Focuses on **OSPF (Open Shortest Path First) Routing Protocol**.  
 - Demonstrates how OSPF dynamically updates routing tables in a multi-router environment.  
 - Includes subnetting, router configurations, and verification using simulation mode.  
@@ -68,8 +68,8 @@ This repository contains two Cisco Packet Tracer projects that demonstrate core 
 
 
 
-**### 1) `Com Network 2`
-**
+### 1) `Com Network 1` — OSPF multi-router lab
+
  PC1 10.1.1.10/24            PC2 10.1.1.11/24
      │                            │
      │                            │
